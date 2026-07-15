@@ -15,6 +15,7 @@ Nothing here is locked to a specific stack. Every skill is **bring-your-own-tool
 | [`weekly-review`](commands/weekly-review.md) | "weekly review", end of week | Reviews the week against your North-Star goals and produces a report + top-3 priorities for next week. |
 | [`deep-research`](skills/deep-research/SKILL.md) | "research X deeply", competitor/market research | Multi-agent research harness: recon → parallel topic agents → adversarial critic → cited synthesis. Scales depth to the brief. |
 | [`autoresearch`](skills/autoresearch/SKILL.md) | "iterate on X", "find the best Y" | An autonomous experiment loop (inspired by Karpathy's autoresearch): hypothesize → execute → measure → keep/discard → repeat. Works on copy, SEO, strategy, pricing, anything measurable. |
+| [`audyt-anti-ai`](skills/audyt-anti-ai/SKILL.md) | "does this look AI-generated?", a URL, a local project | Audits a page for the "AI-slop" look across 6 areas (typography, layout, color, images, copy, motion). Reads the live render via a browser or greps local code, counts flags, returns a plain-language verdict (0-1 clean / 2-3 light / 4+ heavy) with quoted evidence and prioritized fixes. Read-only; prompts and output in Polish. |
 
 ## Install
 
